@@ -5,24 +5,26 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./styles/style.css">
+  <meta name="description" content="Desenvolvedor e Designer Front-End.">
+  <link rel="stylesheet" href="./styles/style.min.css">
   <title>Eliabe Araujo</title>
 </head>
 
 <body>
   <header class="header">
-    <img src="./img/marca.svg" alt="Lobo">
+    <img src="./img/marca.svg" alt="Lobo" width="104" height="38">
+    <!--Colocamos o tamanho da imagem para que o site fique o mais otimizado possivel, assim quando carregamos o site, ele já carrega o layout do tamanho correto, pois se não inserirmos o atributo, ele carregará todo o HTML e no fim a imagem, realizando um ajuste em toda a pagina dependendo do tamanho da imagem. -->
 
     <nav>
       <ul class="header-menu">
         <li><a href="#experiencia">#Experiencia</a></li>
-        <li><a href="#formação">#Formação</a></li>
+        <li><a href="#formacao">#Formação</a></li>
         <li><a href="#contato">#Contato</a></li>
       </ul>
     </nav>
   </header>
   <main class="introducao">
-    <img src="./img/perfil.jpg" alt="Perfil">
+    <img src="./img/perfil.jpg" alt="Perfil" width="360" height="520">
     <div>
       <h1>Desenvolvedor<br>Front End &<br>UX/UI Designer</h1>
       <p>Localizado em São Paulo - SP 🏢</p>
@@ -113,6 +115,18 @@
       </div>
     </div>
   </section>
+  <footer class="footer" id="contato">
+    <div class="footer-container">
+      <p class="footer-texto">Estou disponivel para novos projetos no momento. Entre em contato comigo e marcamos uma conversa.</p>
+      <ul class="footer-contato">
+        <li>eliabe_trajano@hotmail.com</li>
+        <li>+55 21 9999-9999</li>
+        <li><a href="/">@instagram</a></li>
+      </ul>
+      <p class="footer-copy">Lobo. Alguns direitos reservados.</p>
+    </div>
+  </footer>
+
 </body>
 
 </html>
